@@ -10,15 +10,9 @@ Welcome to the Responsive Landing Page for the Galaxy Fold 4, a fictional and in
 - **CSS:** Styles the page, making it visually appealing and consistent.
 - **JavaScript:** Adds interactivity and dynamic behavior to the page.
 
-## Usage
+## Live
 
-1. Clone the repository to your local machine.
-
-   ```bash
-   git clone https://github.com/your-username/galaxy-fold-4-landing-page.git
-   ```
-
-2. Open the `index.html` file in your preferred web browser to explore the landing page.
+https://guidopellegrini.github.io/landing-page-galaxy-fold/
 
 ## Preview
 
