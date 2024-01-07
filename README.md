@@ -12,7 +12,7 @@ Welcome to the Responsive Landing Page for the Galaxy Fold 4, a fictional and in
 
 ## Live
 
-[https://guidopellegrini.github.io/landing-page-galaxy-fold/]
+https://guidopellegrini.github.io/landing-page-galaxy-fold/
 
 ## Preview
 
