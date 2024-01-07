@@ -75,6 +75,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  animation: fadeIn 0.3s ease-in-out forwards;
 }
 
 h1,
@@ -108,6 +109,21 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/*=============== FADE IN ANIMATION ===============*/
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
