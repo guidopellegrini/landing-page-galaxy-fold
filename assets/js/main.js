@@ -67,14 +67,6 @@ function changeTheme() {
     // Si se cumple la validación, preguntamos cuál fue el problema para saber si activamos o desactivamos el dark theme
     document.body.classList[selectedTheme === "light-theme" ? "add" : "remove"](lightTheme);
     themeIcon.classList[selectedIcon === "ri-sun-fill" ? "add" : "remove"](iconTheme);
-  } else {
-    // Si no hay tema seleccionado (primera visita), establecemos el tema claro por defecto
-    document.body.classList.add(lightTheme);
-    themeIcon.classList.add(iconTheme);
-    // Aseguramos que el ícono de luna no esté presente si estamos estableciendo el sol por defecto
-    themeIcon.classList.remove("ri-moon-fill"); // Aunque iconTheme es ri-sun-fill, es bueno ser explícito.
-    localStorage.setItem("selected-theme", "light-theme");
-    localStorage.setItem("selected-icon", "ri-sun-fill");
   }
 
   // Activamos / desactivamos el tema manualmente con el botón
