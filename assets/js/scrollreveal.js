@@ -1,3 +1,10 @@
+/**
+ * @file scrollreveal.js
+ * @description Librería de terceros ScrollReveal para animaciones de desplazamiento.
+ * Esta librería se utiliza para animar elementos a medida que entran en el viewport.
+ * @see https://scrollrevealjs.org/
+ */
+
 /*! @license ScrollReveal v4.0.9
 
 	Copyright 2021 Fisssion LLC.
